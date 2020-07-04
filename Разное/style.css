@@ -1,0 +1,33 @@
+body, html {
+margin:0px;
+padding:0px;
+height: 100%;
+}
+#maket {
+margin:0 auto;
+min-height: 100%;
+border: solid 3px black;
+}
+#header{
+background-color:#C0C000;
+}
+#left{
+background-color:#00C0C0;
+width:200px;
+float:left;
+}
+
+#content{
+background-color:#8080FF;
+margin-left:202px;
+
+}
+#footer{
+background-color:#FFC0FF;
+clear:both;
+height: 50px;
+margin-top:-50px;
+}
+#rasporka {
+height: 50px;
+}

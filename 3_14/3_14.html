@@ -1,0 +1,55 @@
+<html>
+<head>
+	<meta charset="utf-8">
+	<style>
+
+	input{
+		width:180px;
+		margin-bottom:5px
+	}
+	div{
+		border:solid 1px silver;
+		margin:5px;
+		width:200px;
+		float:left;
+
+		text-align:center
+	}
+	img{
+		width:85%;
+		border:solid 1px black
+	}
+	</style>
+
+</head>
+
+<body>
+	<div id="B1">
+		<p>Бокс 1</p>
+		<img src="img/img_fjords.jpg"></p>
+		<input type='button' value='Снять' onclick="out()"/></div>
+
+		<div id="B2">
+			<p>Бокс 2</p>
+			<img src="img/img_forest.jpg"></p>
+			<input type='button' value='Скрыть' onclick="hide()"/></div>
+
+			<div>
+				<p>Бокс3</p>
+				<img src="img/img_lights.jpg"></p>
+				<input type='button' value='Открыть' onclick="open()"/></div>
+
+				<script>
+
+				function out() {
+   			document.getElementById('B1').style.display='none';
+				}
+				function hide() {
+   			document.getElementById('B2').style.visibility='hidden';
+				console.log(visibility);
+				}
+
+
+				</script>
+			</body>
+			</html>

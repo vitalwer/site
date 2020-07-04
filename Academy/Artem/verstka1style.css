@@ -1,0 +1,27 @@
+.fon {
+  background: #fab005;
+  position: relative; /* Относительное позиционирование */
+    left: 500px; /* Положение от левого края */
+    top: 20px; /* Положение от верхнего края */
+    width: 200px;
+}
+.Kalkul{
+  width: 500px;
+  margin: 0 auto;
+  text-align: center;
+  background-color: aliceblue;
+  padding: 20px;
+  border: 1px solid black;
+}
+.Kalkul .Operations-block button{
+  width: 40px;
+  height: 40px;
+  margin: 20px
+}
+.Kalkul .Inputs-block .Input-block {
+  display: inline-block;
+  padding: 10px;
+}
+.Kalkul .Inputs-block .Input-block label{
+  display: block;
+}

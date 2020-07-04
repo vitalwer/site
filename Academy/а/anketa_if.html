@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <script>
+var fio1 = prompt('Фамилия');
+var fio2 = prompt('Имя');
+var fio3 = prompt('Отчество');
+var age = prompt('возраст в годах');
+var i = 365;
+var dni = (age * i);
+var pol = confirm('ваш пол - мужской?');
+
+
+
+
+var pensioner = (age < 65) ? 'Нет' :
+  (age > 65) ? 'Да' :
+  (age > 100) ? 'Да ты крут!' :
+  'Какой необычный возраст!';
+
+
+window.alert(
+`ФИО: ${fio1} ${fio2} ${fio3}
+возраст, лет: ${age}
+возраст, дней: ${dni}
+пол: ${pol}
+пенсионный возраст: ${pensioner}`);
+
+    </script>
+  </body>
+</html>
